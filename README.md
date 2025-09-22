@@ -129,6 +129,8 @@ Here’s few sample input queries and the generated streamlit report and PDF rep
  
    Generated Output (streamlit) :
    
+   **Note**: If a source has no retrievable content, it is gracefully skipped, and the report continues with the available sources.
+   
    ![image](./samples/sample_report_2.png)
 
   **Generated Output (PDF) :**   [Download_report_2](./samples/sample_report_2.pdf)
