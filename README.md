@@ -35,13 +35,13 @@ AI Research Agent is a lightweight agent that helps fetch, summarize, and struct
    ```bash
     AI_Research_Agent/
     │── app.py               # Streamlit web app
-    │── agent.py             # Web search, content extraction, summarization
-    │── db.py                # SQLite database helpers
+    │── agent.py             # Research agent
+    │── db.py                # SQLite database 
     │── utils.py             # PDF generation & formatting helpers
     │── requirements.txt     # Python dependencies
     │── README.md            # Project documentation
-    │── .env                 # API keys and environment variables
-    └── samples/             # Optional folder for sample output files
+    │── .env                 # API keys
+    └── samples/             # Folder for sample output files
 ```
 ---
 
