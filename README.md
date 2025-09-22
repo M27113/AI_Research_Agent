@@ -125,7 +125,7 @@ Here’s few sample input queries and the generated streamlit report and PDF rep
 
   **Generated report(PDF) :**   [Download_report_1](./samples/sample_report_1.pdf) 
 
-### 2. *"Trends in renewable energy adoption 2025"*
+### 2. *"Impact of Mediterranean diet on heart health"*
  
    Generated Output (streamlit) :
    
