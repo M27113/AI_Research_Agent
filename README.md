@@ -48,10 +48,21 @@ AI Research Agent is a lightweight agent that helps fetch, summarize, and struct
 ###   Architecture Diagram
 
 ```text
-┌─────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   User      │ ──> │   Agent      │ ──> │ Content      │ ──> │   Database   │ ──> │ Streamlit UI │
-│  Query      │     │ (LLM + tools)│     │ Extraction   │     │   (SQLite)   │     │              │
-└─────────────┘     └──────────────┘     └──────────────┘     └──────────────┘     └──────────────┘
+
++--------------------+    +--------------------+    +-------------------------+    +--------------------+    +--------------------+
+|  User Query Input  |--> |  Web Search API    |--> |  Content Extraction     |--> |   LLM Summarize    |--> |  Save Report in    |
+|                    |    |     (Tavily)       |    | (Trafilatura / PyPDF2)  |    |   (OpenAI GPT)     |    |    Database        |
++--------------------+    +--------------------+    +-------------------------+    +--------------------+    +--------------------+
+                                                         |                   |
+                                                         v                   v
+                                               +----------------+       +----------------+
+                                               | SQLite Database|       | Streamlit UI   |
+                                               +----------------+       | - View Report  |
+                                                                        | - History      |
+                                                                        | - Download PDF |
+                                                                        +----------------+
+
+
 ```
 ---
 
