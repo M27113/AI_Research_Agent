@@ -1,6 +1,5 @@
-# AI_Research_Agent
 
-# 🧠 AI Research Agent
+# 🤖 AI Research Agent
 
 AI Research Agent is a lightweight agent that helps fetch, summarize, and structure research content from multiple sources online. Each generated report is saved into a database for easy revisiting, and you can view or download the reports as PDFs directly from the Streamlit web interface.
 
