@@ -123,15 +123,15 @@ Here’s few sample input queries and the generated streamlit report and PDF rep
    
    ![image](./samples/sample_report_1.png)
 
-  **Generated report(PDF) :**   [Download](./samples/sample_report_1.pdf) 
+  **Generated report(PDF) :**   [report_1](./samples/sample_report_1.pdf) 
 
 ### 2. *"Trends in renewable energy adoption 2025"*
  
    Generated Output (streamlit) :
    
-   ![image](./samples/sample_report_2.png)
+   ![image](./samples/sample_report2.png)
 
-  **Generated Output (PDF) :**   [Download](./samples/sample_report_2.pdf)
+  **Generated Output (PDF) :**   [report_2](./samples/sample_report2.pdf)
 
 ### 3. *"Impact of intermittent fasting on health"*
  
@@ -139,7 +139,7 @@ Here’s few sample input queries and the generated streamlit report and PDF rep
    
    ![image](./samples/sample_report_3.png)
 
-  **Generated Output (PDF) :**   [Download](./samples/sample_report_3.pdf)
+  **Generated Output (PDF) :**   [report_3](./samples/sample_report_3.pdf)
 
 ---
 
