@@ -147,7 +147,7 @@ Here’s few sample input queries and the generated streamlit report and PDF rep
 
 ## 🧠 AI Assistance Disclosure
 
-This project leveraged AI (ChatGPT) for guidance on designing prompts, organizing code structure, and improving readability. The full implementation, testing, final integration, and learning process were completed independently by me.
+This project leveraged AI (ChatGPT) for guidance on code readability and organization. The full implementation, testing, final integration, and learning process were completed independently by me.
 
 
 
